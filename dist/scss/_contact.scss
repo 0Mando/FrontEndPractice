@@ -1,0 +1,31 @@
+.contact{
+    position: absolute;
+    background-color: white;
+    color: $primary-color;
+    left: 5%;
+    right: 5%;
+
+    input{
+        background-color: $border-color;
+        color: #DDDDDD;
+        border: none;
+        border-radius: 40px;
+        display: block;
+        width: 100%;
+        padding: 16px 20px;
+        font-size: $p-content;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    a{
+        display: block;
+        background-color: $primary-color;
+        color: white;
+        border-radius: 40px;
+        padding: 16px 20px;
+        font-size: $p-content;
+        margin-bottom: 25px;
+        width: 100%;
+    }
+}
