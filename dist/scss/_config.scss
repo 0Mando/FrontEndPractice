@@ -4,3 +4,21 @@
     box-sizing: border-box;
     // border: 1px solid red;
 }
+
+@mixin media-md {
+    @media screen and (min-width: $medium) {
+        @content;
+    }
+}
+
+@mixin media-lg {
+    @media screen and (min-width: $large) {
+        @content;
+    }
+}
+
+@mixin media-xl {
+    @media screen and (min-width: $extra-large) {
+        @content;
+    }
+}
