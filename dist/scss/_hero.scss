@@ -1,7 +1,7 @@
 .hero{
     background-color: $primary-color;
-    padding-top: 50px;
-    padding-bottom: 240px;
+    padding-top: 3.125rem;
+    padding-bottom: 15rem;
 
     &__wrapper{
         display: flex;
@@ -9,7 +9,7 @@
     }
 
     &__principal_content{
-        width: 100%;
+
         h2{
             color: white;
             font-size: $sub-title;
@@ -27,9 +27,12 @@
         margin-top: 10px;
         background-color: white;
         width: 100%;
-        padding: 8px 16px;
-        border-radius: 20px;
+        padding: 16px 16px;
+        border-radius: 40px;
         text-align: center;
+        cursor: pointer;
+        display: block;
+        font-weight: 900;
     }
 
     &__autor{
