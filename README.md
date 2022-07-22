@@ -38,4 +38,4 @@ Possible student prompts: What did you learn? What worked well? What was the mos
 
 ## Add the link to your project here:
 
-Link to access project
+Link to access project: https://0mando.github.io/FrontEndPractice/dist/
