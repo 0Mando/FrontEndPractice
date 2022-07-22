@@ -1,4 +1,4 @@
-@import 'config', 'variables', 'navigation', 'hero', 'services', 'products', 'contact', 'opinion', 'menu', 'banner';
+@import 'config', 'variables', 'navigation', 'hero', 'services', 'products', 'contact', 'opinion', 'menu', 'banner', 'responsive';
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
@@ -16,6 +16,15 @@ a{
     margin: 0 auto;
     max-width: 75rem;
     padding: 0 1.25rem;
+}
+
+.logo{
+    font-size: $link-title;
+    padding-top: 15px;
+}
+
+.navigation{
+    visibility: hidden;
 }
 
 footer{

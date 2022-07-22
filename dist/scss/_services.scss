@@ -26,20 +26,20 @@
 
     &__pasuruan{
         display: flex;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        padding-top: 20px;
+        margin-top: 1.875rem;
+        margin-bottom: 1.875rem;
+        padding-top: 1.25rem;
         border-top: 2px solid $border-color;
 
         img{
-            height: 50px;
-            width: 50px;
-            border-radius: 50px;
+            height: 3.125rem;
+            width: 3.125rem;
+            border-radius: 3.125rem;
         }
     }
 
     &__name_pasuruan{
-        margin-left: 15px;
+        margin-left: 0.938rem;
         font-size: $link-title;
     }
 }
@@ -47,6 +47,6 @@
 .material-symbols-outlined{
     background-color: white;
     color: $primary-color;
-    padding: 20px;
-    margin: 50px auto;
+    padding: 1.25rem;
+    margin: 3.125rem auto;
 }

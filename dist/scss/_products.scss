@@ -2,13 +2,13 @@
     background-color: $primary-color;
     color: white;
     position: relative;
-    padding-bottom: 420px;
+    padding-bottom: 26.25rem;
 
     h2{
         font-size: $sub-title;
         font-weight: lighter;
-        margin-bottom: 40px;
-        padding-top: 30px;
+        margin-bottom: 2.5rem;
+        padding-top: 1.875rem;
     }
 
     &__items{
@@ -20,24 +20,24 @@
         display: flex;
 
         img{
-            height: 80px;
-            width: 80px;
+            height: 5rem;
+            width: 5rem;
         }
     }
 
     &__card_content{
-        padding-left: 12px;
-        margin-bottom: 50px;
+        padding-left: 0.75rem;
+        margin-bottom: 3.125rem;
 
         h4{
             font-size: $p-content;
             font-weight: lighter;
             color: white;
-            margin-bottom: 8px;
+            margin-bottom: 0.5rem;
         }
 
         p{
-            font-size: 12px;
+            font-size: 0.75rem;
             color: $border-color;
         }
     }
