@@ -1,1 +1,19 @@
-@import 'config';
+@import 'config', 'variables', 'navigation', 'hero';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    color: $primary-color;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 75rem;
+    padding: 0 1.25rem;
+}
